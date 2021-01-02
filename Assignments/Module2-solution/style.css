@@ -1,0 +1,119 @@
+/************** Base styling ***************/
+
+* { box-sizing: border-box;}
+
+
+#Title { 
+		text-align: center; 
+	 	font-family: Comic Sans MS;
+	 	color: green;
+	 	font-weight: bold;
+	 	text-decoration: underline;
+	 	margin-right: auto;
+	 	margin-left: auto;
+	 	font-size: 500%
+	   }
+
+
+.Protein {
+		width:40%;
+		float:right;
+		border: 2px solid black;
+		text-align: center;
+		font-size: 100%;
+		float:right;
+		 }
+
+
+.menu {
+   		background-color: #8e8e8e;
+   		margin:10px;
+   		border:2px solid black;
+      }
+
+
+.text {
+   		margin:10px;
+   		margin-top:40px;
+   		clear:both;
+      }
+
+
+.row {
+    	width: 90%;
+    	border: 5px;
+    	margin-right: auto;
+    	margin-left: auto;
+    	padding:5px;
+     }
+
+
+
+#ChickenPokeBowl {background-color: #FFC0CB;
+				  font-weight: bold;}
+
+#BeefPokeBowl    {background-color: #FF0000; 
+			   color:#F0FFFF;
+			   font-weight: bold}
+
+
+#SushiPokeBowl   {background-color: #F0E68C;
+				font-weight: bold}
+
+
+
+
+
+
+
+
+
+/***************** MEDIA QUERIES ****************/
+
+/***************** LARGE DEVICES ****************/
+
+@media (min-width: 992px) 
+{
+  .col-lg-4   {
+    float: left;
+    background-color: white;
+    width: 33.33%;
+			  }
+}
+
+
+
+
+
+
+/**************** MEDIUM DEVICES ****************/
+
+@media (min-width: 768px) and (max-width: 991px) 
+{
+  .col-md-6, .col-md-12 {
+    float: left;
+    background-color: white;
+  						}
+
+  .col-md-6 {
+    width: 50%;
+  			}
+  .col-md-12 {
+    width: 100%;
+  			 }
+}
+
+
+
+
+
+/**************** SMALL DEVICES ****************/
+
+@media (max-width: 767px) 
+{
+	.col-sm-12 {
+    float: left;
+    background-color: white;
+    width: 100%;
+			   }
+}
