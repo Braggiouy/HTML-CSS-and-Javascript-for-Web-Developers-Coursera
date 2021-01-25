@@ -1,5 +1,11 @@
 # Coursera-HTML-CSS-and-Javascript-for-Web-Developers
- Coursera entire course related to HTML, CSS and Javascript for Web Developers. Solutions will be listed below. 
+
+ Coursera entire course related to HTML, CSS and Javascript for Web Developers. 
+ 
+ * [HTML CSS and Javascript for web developers](https://www.coursera.org/learn/html-css-javascript-for-web-developers) by Yaakov Chaikin Johns Hopkins University. 
+  
+ 
+ Solutions will be listed below. 
  
  Assignments : 
  
